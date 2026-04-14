@@ -1,53 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 220 20% 10%;
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 10%;
-    --primary: 25 95% 53%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 210 20% 95%;
-    --secondary-foreground: 220 20% 10%;
-    --muted: 210 15% 93%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 45 93% 47%;
-    --accent-foreground: 220 20% 10%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 214 20% 90%;
-    --input: 214 20% 90%;
-    --ring: 25 95% 53%;
-    --radius: 0.75rem;
-
-    --solar-orange: 25 95% 53%;
-    --solar-amber: 45 93% 47%;
-    --solar-green: 142 71% 45%;
-    --solar-blue: 217 91% 60%;
-    --solar-dark: 220 20% 10%;
-    --solar-gradient: linear-gradient(135deg, hsl(25, 95%, 53%), hsl(45, 93%, 47%));
-    --solar-gradient-dark: linear-gradient(135deg, hsl(220, 20%, 10%), hsl(220, 15%, 18%));
-    --shadow-card: 0 4px 24px -4px hsl(25 95% 53% / 0.08);
-    --shadow-hover: 0 12px 40px -8px hsl(25 95% 53% / 0.2);
-
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
     --background: 220 20% 7%;
     --foreground: 210 20% 95%;
     --card: 220 18% 10%;
@@ -67,6 +25,18 @@
     --border: 220 15% 18%;
     --input: 220 15% 18%;
     --ring: 25 95% 53%;
+    --radius: 0.75rem;
+
+    --solar-orange: 25 95% 53%;
+    --solar-amber: 45 93% 47%;
+    --solar-green: 142 71% 45%;
+    --solar-blue: 217 91% 60%;
+    --solar-dark: 220 20% 10%;
+    --solar-gradient: linear-gradient(135deg, hsl(25, 95%, 53%), hsl(45, 93%, 47%));
+    --solar-gradient-dark: linear-gradient(135deg, hsl(220, 20%, 10%), hsl(220, 15%, 18%));
+    --shadow-card: 0 4px 24px -4px hsl(25 95% 53% / 0.08);
+    --shadow-hover: 0 12px 40px -8px hsl(25 95% 53% / 0.2);
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -76,18 +46,24 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
+
   body {
-    @apply bg-background text-foreground font-sans;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    @apply font-sans;
     font-family: 'Inter', sans-serif;
   }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif;
+  }
+
+  svg.lucide:not([class*="text-"]) {
+    @apply text-gray-300;
   }
 }
 

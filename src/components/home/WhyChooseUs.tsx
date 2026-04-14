@@ -14,7 +14,7 @@ export const WhyChooseUs = () => (
     <div className="container mx-auto px-4">
       <FadeUp className="text-center mb-14">
         <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Why Choose ASP Solar?</h2>
-        <p className="text-muted-foreground max-w-xl mx-auto">Trusted by businesses for quality, reliability and value</p>
+        <p className="text-gray-400 max-w-xl mx-auto">Trusted by businesses for quality, reliability and value</p>
       </FadeUp>
 
       <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -22,13 +22,13 @@ export const WhyChooseUs = () => (
           <StaggerItem key={f.title}>
             <motion.div
               whileHover={{ y: -6 }}
-              className="bg-card border border-border rounded-2xl p-6 text-center transition-shadow hover:shadow-[var(--shadow-hover)] h-full"
+              className="bg-gray-800 shadow-md border border-gray-700 rounded-2xl p-6 text-center transition-shadow hover:shadow-[var(--shadow-hover)] h-full"
             >
               <div className={`w-14 h-14 mx-auto rounded-2xl bg-muted flex items-center justify-center mb-4 ${f.color}`}>
                 <f.icon className="w-7 h-7" />
               </div>
               <h3 className="font-display font-semibold text-lg mb-2">{f.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
+              <p className="text-sm text-gray-400 leading-relaxed">{f.desc}</p>
             </motion.div>
           </StaggerItem>
         ))}

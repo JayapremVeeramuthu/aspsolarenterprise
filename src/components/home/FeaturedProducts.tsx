@@ -13,7 +13,7 @@ export const FeaturedProducts = () => {
       <div className="container mx-auto px-4">
         <FadeUp className="text-center mb-12">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Featured Products</h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">Top-rated solar and electrical products from Andslite</p>
+          <p className="text-gray-400 max-w-xl mx-auto">Top-rated solar and electrical products from ASP Solar Enterprise</p>
         </FadeUp>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">

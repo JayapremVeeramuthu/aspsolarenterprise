@@ -28,12 +28,12 @@ const Products = () => {
       <div className="container mx-auto px-4">
         <FadeUp className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl font-bold mb-2">All Products</h1>
-          <p className="text-muted-foreground">Browse our complete range of {products.length} products</p>
+          <p className="text-gray-400">Browse our complete range of {products.length} products</p>
         </FadeUp>
 
         <FadeUp delay={0.1} className="flex flex-col md:flex-row gap-4 mb-8">
           <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
             <Input placeholder="Search products..." value={search} onChange={(e) => setSearch(e.target.value)} className="pl-10" />
           </div>
           <div className="flex gap-2 flex-wrap">
@@ -48,7 +48,7 @@ const Products = () => {
             ))}
           </div>
           <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}
-            className="px-3 py-2 rounded-lg border border-border bg-card text-sm">
+            className="px-3 py-2 rounded-lg border border-gray-700 bg-gray-800 shadow-md text-sm">
             <option value="popular">Popular</option>
             <option value="price-low">Price: Low to High</option>
             <option value="price-high">Price: High to Low</option>
@@ -57,7 +57,7 @@ const Products = () => {
         </FadeUp>
 
         {filtered.length === 0 ? (
-          <div className="text-center py-20 text-muted-foreground">No products found matching your criteria.</div>
+          <div className="text-center py-20 text-gray-400">No products found matching your criteria.</div>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
             {filtered.map((product, i) => (

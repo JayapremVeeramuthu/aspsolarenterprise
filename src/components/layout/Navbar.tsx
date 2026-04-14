@@ -15,7 +15,6 @@ const navLinks = [
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dark, setDark] = useState(false);
   const location = useLocation();
   const itemCount = useCartStore((s) => s.itemCount());
   const toggleCart = useCartStore((s) => s.toggleCart);
@@ -27,11 +26,6 @@ export const Navbar = () => {
   }, []);
 
   useEffect(() => { setMobileOpen(false); }, [location]);
-
-  const toggleDark = () => {
-    setDark(!dark);
-    document.documentElement.classList.toggle("dark");
-  };
 
   return (
     <motion.header
@@ -56,7 +50,7 @@ export const Navbar = () => {
               key={link.to}
               to={link.to}
               className={`text-sm font-medium transition-colors hover:text-primary ${
-                location.pathname === link.to ? "text-primary" : "text-foreground/70"
+                location.pathname === link.to ? "text-primary" : "text-gray-100/70"
               }`}
             >
               {link.label}
@@ -65,9 +59,6 @@ export const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" onClick={toggleDark} className="hidden md:flex">
-            {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          </Button>
           <Button variant="ghost" size="icon" className="relative" onClick={toggleCart}>
             <ShoppingCart className="w-5 h-5" />
             {itemCount > 0 && (

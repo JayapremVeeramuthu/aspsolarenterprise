@@ -4,7 +4,7 @@ import { Target, Eye, Lightbulb, Award, Users, TrendingUp } from "lucide-react";
 
 const timeline = [
   { year: "2019", title: "Company Founded", desc: "ASP Solar Enterprise began with a vision to make solar energy accessible to all." },
-  { year: "2020", title: "Product Line Expanded", desc: "Partnered with Andslite to bring quality solar and electrical products." },
+  { year: "2020", title: "Product Line Expanded", desc: "Partnered with ASP Solar Enterprise to bring quality solar and electrical products." },
   { year: "2021", title: "500+ Clients Milestone", desc: "Reached 500+ business clients across India." },
   { year: "2023", title: "Pan-India Distribution", desc: "Expanded distribution network to cover major cities and rural areas." },
   { year: "2024", title: "Digital Transformation", desc: "Launched online platform for easier ordering and bulk inquiries." },
@@ -15,7 +15,7 @@ const About = () => (
     <div className="container mx-auto px-4">
       <FadeUp className="text-center mb-16">
         <h1 className="font-display text-3xl md:text-4xl font-bold mb-4">About ASP Solar Enterprise</h1>
-        <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
           We are a trusted distributor of premium solar and electrical products, committed to powering India's sustainable future with quality and innovation.
         </p>
       </FadeUp>
@@ -29,7 +29,7 @@ const About = () => (
               </div>
               <div>
                 <h3 className="font-display font-semibold text-lg mb-2">Our Mission</h3>
-                <p className="text-muted-foreground leading-relaxed">To accelerate India's transition to clean energy by providing affordable, high-quality solar products to every home and business.</p>
+                <p className="text-gray-400 leading-relaxed">To accelerate India's transition to clean energy by providing affordable, high-quality solar products to every home and business.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -38,7 +38,7 @@ const About = () => (
               </div>
               <div>
                 <h3 className="font-display font-semibold text-lg mb-2">Our Vision</h3>
-                <p className="text-muted-foreground leading-relaxed">A solar-powered India where every household and business benefits from clean, renewable energy solutions.</p>
+                <p className="text-gray-400 leading-relaxed">A solar-powered India where every household and business benefits from clean, renewable energy solutions.</p>
               </div>
             </div>
           </div>
@@ -53,10 +53,10 @@ const About = () => (
               { icon: Lightbulb, n: "5+", l: "Years Experience" },
             ].map(s => (
               <StaggerItem key={s.l}>
-                <motion.div whileHover={{ y: -4 }} className="bg-card border border-border rounded-xl p-6 text-center">
+                <motion.div whileHover={{ y: -4 }} className="bg-gray-800 shadow-md border border-gray-700 rounded-xl p-6 text-center">
                   <s.icon className="w-8 h-8 mx-auto mb-3 text-primary" />
                   <div className="font-display text-2xl font-bold">{s.n}</div>
-                  <p className="text-xs text-muted-foreground">{s.l}</p>
+                  <p className="text-xs text-gray-400">{s.l}</p>
                 </motion.div>
               </StaggerItem>
             ))}
@@ -78,7 +78,7 @@ const About = () => (
               <div className="relative pb-8 border-l-2 border-primary/20 pl-6">
                 <div className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-primary" />
                 <h4 className="font-semibold mb-1">{t.title}</h4>
-                <p className="text-sm text-muted-foreground">{t.desc}</p>
+                <p className="text-sm text-gray-400">{t.desc}</p>
               </div>
             </div>
           </FadeUp>

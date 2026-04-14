@@ -34,7 +34,7 @@ export const products: Product[] = [
   // SOLAR PRODUCTS
   {
     id: "nano-solar",
-    name: "Andslite Nano Solar LED Rechargeable Light",
+    name: "ASP Solar Enterprise Nano Solar LED Rechargeable Light",
     category: "solar-lights",
     subcategory: "Rechargeable Torch",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/nano-solar-300x300.jpg"],
@@ -46,7 +46,7 @@ export const products: Product[] = [
   },
   {
     id: "e-star-solar",
-    name: "Andslite E-STAR LED Solar Lantern",
+    name: "ASP Solar Enterprise E-STAR LED Solar Lantern",
     category: "solar-lights",
     subcategory: "Rechargeable Lanterns",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/1-15-scaled-1-300x300.jpg"],
@@ -58,7 +58,7 @@ export const products: Product[] = [
   },
   {
     id: "venus-solar",
-    name: "Andslite Venus LED Solar Lantern",
+    name: "ASP Solar Enterprise Venus LED Solar Lantern",
     category: "solar-lights",
     subcategory: "Rechargeable Lanterns",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/venus-solar-1.jpg"],
@@ -70,7 +70,7 @@ export const products: Product[] = [
   },
   {
     id: "cp12-solar",
-    name: "Andslite CP 12-4WP LED Solar Lantern",
+    name: "ASP Solar Enterprise CP 12-4WP LED Solar Lantern",
     category: "solar-lights",
     subcategory: "Rechargeable Lanterns",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/cp-12-solar-300x300.jpg"],
@@ -82,7 +82,7 @@ export const products: Product[] = [
   },
   {
     id: "shl-1",
-    name: "Andslite SHL-1 Rechargeable Home Lights",
+    name: "ASP Solar Enterprise SHL-1 Rechargeable Home Lights",
     category: "solar-lights",
     subcategory: "Solar Combo",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/SHL-1-PHOTO-300x300.jpg"],
@@ -94,7 +94,7 @@ export const products: Product[] = [
   },
   {
     id: "elegant-fan",
-    name: "Andslite Elegant Solar Rechargeable Table Fan with LED Light",
+    name: "ASP Solar Enterprise Elegant Solar Rechargeable Table Fan with LED Light",
     category: "solar-lights",
     subcategory: "Solar Combo",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/WhatsApp-Image-2021-04-01-at-15.56.14-300x300.jpeg"],
@@ -106,7 +106,7 @@ export const products: Product[] = [
   },
   {
     id: "shl-4",
-    name: "Andslite SHL-4 Solar Home Lighting Set with 20W Solar Panel",
+    name: "ASP Solar Enterprise SHL-4 Solar Home Lighting Set with 20W Solar Panel",
     category: "solar-lights",
     subcategory: "Solar Combo",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/SHL-4-1-300x300.jpg"],
@@ -118,7 +118,7 @@ export const products: Product[] = [
   },
   {
     id: "globe-solar",
-    name: "Andslite Globe LED Solar Rechargeable Lantern",
+    name: "ASP Solar Enterprise Globe LED Solar Rechargeable Lantern",
     category: "solar-lights",
     subcategory: "Rechargeable Lanterns",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/1-16-scaled-1-300x300.jpg"],
@@ -130,7 +130,7 @@ export const products: Product[] = [
   },
   {
     id: "ranger-solar",
-    name: "Andslite Ranger Solar LED Rechargeable Light",
+    name: "ASP Solar Enterprise Ranger Solar LED Rechargeable Light",
     category: "solar-lights",
     subcategory: "Rechargeable Torch",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/1-9-scaled-1-300x300.jpg"],
@@ -142,7 +142,7 @@ export const products: Product[] = [
   },
   {
     id: "solar-pv-modules",
-    name: "Andslite Solar PV Modules",
+    name: "ASP Solar Enterprise Solar PV Modules",
     category: "solar-panels",
     subcategory: "Solar Panels",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/SOLAR-MODULES-scaled-1-300x300.jpeg"],
@@ -154,7 +154,7 @@ export const products: Product[] = [
   },
   {
     id: "aspv-0506",
-    name: "Andslite ASPV 0506 Solar Panel",
+    name: "ASP Solar Enterprise ASPV 0506 Solar Panel",
     category: "solar-panels",
     subcategory: "Solar Panels",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/5Wp-Panel-300x300.jpg"],
@@ -166,7 +166,7 @@ export const products: Product[] = [
   },
   {
     id: "smile-24",
-    name: "Andslite Smile 24 LED Solar Lantern",
+    name: "ASP Solar Enterprise Smile 24 LED Solar Lantern",
     category: "solar-lights",
     subcategory: "Rechargeable Lanterns",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/smile-24-solar-1-300x300.jpg"],
@@ -180,43 +180,43 @@ export const products: Product[] = [
   // ACCESSORIES
   {
     id: "4v-battery",
-    name: "Andslite 4V / 4.5Ah SMF Battery",
+    name: "ASP Solar Enterprise 4V / 4.5Ah SMF Battery",
     category: "accessories",
     subcategory: "Accessories",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/WhatsApp-Image-2021-08-13-at-5.25.15-PM-300x300.jpeg"],
     price: 310,
-    description: "Sealed Maintenance-Free battery for Andslite rechargeable products. 4V 4.5Ah capacity.",
+    description: "Sealed Maintenance-Free battery for ASP Solar Enterprise rechargeable products. 4V 4.5Ah capacity.",
     features: ["4V 4.5Ah", "Sealed Maintenance Free", "Long Life", "Universal Fit"],
     specifications: { "Voltage": "4V", "Capacity": "4.5Ah", "Type": "SMF" },
     rating: 4.0, reviews: 19, stock: 200
   },
   {
     id: "bc4-charger",
-    name: "Andslite BC4 – 4 Volt Battery Charger (BIG PIN)",
+    name: "ASP Solar Enterprise BC4 – 4 Volt Battery Charger (BIG PIN)",
     category: "accessories",
     subcategory: "Charger",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/BC-4-160.00-1.jpg"],
     price: 165,
-    description: "4 Volt battery charger with big pin connector. Compatible with all Andslite 4V products.",
+    description: "4 Volt battery charger with big pin connector. Compatible with all ASP Solar Enterprise 4V products.",
     features: ["4V Output", "Big Pin Connector", "LED Indicator", "Overcharge Protection"],
     specifications: { "Output": "4V", "Pin": "Big Pin", "Protection": "Overcharge" },
     rating: 4.1, reviews: 33, stock: 150
   },
   {
     id: "bc6-charger",
-    name: "Andslite BC6 – 6 Volt Battery Charger",
+    name: "ASP Solar Enterprise BC6 – 6 Volt Battery Charger",
     category: "accessories",
     subcategory: "Charger",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/BC-6-215.00-1.jpg"],
     price: 215,
-    description: "6 Volt battery charger for Andslite rechargeable products with safety features.",
+    description: "6 Volt battery charger for ASP Solar Enterprise rechargeable products with safety features.",
     features: ["6V Output", "Safety Features", "LED Indicator", "Compact Design"],
     specifications: { "Output": "6V", "Safety": "Built-in Protection", "Design": "Compact" },
     rating: 4.0, reviews: 27, stock: 120
   },
   {
     id: "bc12-charger",
-    name: "Andslite BC12 – 12 Volt Battery Charger",
+    name: "ASP Solar Enterprise BC12 – 12 Volt Battery Charger",
     category: "accessories",
     subcategory: "Charger",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/BC-12-1-scaled-1-300x300.jpg"],
@@ -228,36 +228,36 @@ export const products: Product[] = [
   },
   {
     id: "ap10-charger",
-    name: "Andslite AP-10 Charger (Small Pin)",
+    name: "ASP Solar Enterprise AP-10 Charger (Small Pin)",
     category: "accessories",
     subcategory: "Adapter",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/BC-4-160.00-1-1.jpg"],
     price: 170,
-    description: "Compact adapter with small pin for portable Andslite devices.",
+    description: "Compact adapter with small pin for portable ASP Solar Enterprise devices.",
     features: ["Small Pin", "Compact", "Energy Efficient", "Safe Charging"],
     specifications: { "Pin": "Small", "Size": "Compact", "Type": "Adapter" },
     rating: 3.9, reviews: 15, stock: 100
   },
   {
     id: "ap31-adapter",
-    name: "Andslite AP-31 Adapter",
+    name: "ASP Solar Enterprise AP-31 Adapter",
     category: "accessories",
     subcategory: "Adapter",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/ap-31-255-1.jpg"],
     price: 260,
-    description: "Versatile AP-31 adapter compatible with a wide range of Andslite products.",
+    description: "Versatile AP-31 adapter compatible with a wide range of ASP Solar Enterprise products.",
     features: ["Versatile Compatibility", "Stable Output", "Durable Build", "Safe"],
     specifications: { "Type": "Adapter", "Compatibility": "Wide Range" },
     rating: 4.0, reviews: 12, stock: 90
   },
   {
     id: "6v-battery",
-    name: "Andslite 6V / 4.5Ah SMF Battery",
+    name: "ASP Solar Enterprise 6V / 4.5Ah SMF Battery",
     category: "accessories",
     subcategory: "Accessories",
     images: ["https://shop.andslite.com/wp-content/uploads/2024/08/WhatsApp-Image-2021-08-13-at-5.25.28-PM-300x300.jpeg"],
     price: 440,
-    description: "6V 4.5Ah Sealed Maintenance-Free battery for medium-power Andslite devices.",
+    description: "6V 4.5Ah Sealed Maintenance-Free battery for medium-power ASP Solar Enterprise devices.",
     features: ["6V 4.5Ah", "SMF Technology", "Long Cycle Life", "Leak-proof"],
     specifications: { "Voltage": "6V", "Capacity": "4.5Ah", "Type": "SMF" },
     rating: 4.2, reviews: 16, stock: 180
@@ -328,10 +328,10 @@ export const products: Product[] = [
 
 export const contactInfo = {
   company: "ASP Solar Enterprise",
-  address: "Kolkata, West Bengal, India",
-  phone: ["+91 98765 43210", "+91 87654 32109"],
+  address: "233B, Kurunthampattu Road, Mangampunjai, Kallal - 630 305",
+  phone: ["+91 9003028001", "+91 9150809001", "+91 8438858636"],
   email: "info@aspsolar.in",
-  whatsapp: "+919876543210",
+  whatsapp: "+919003028001",
   hours: "Mon - Sat: 9:00 AM - 7:00 PM",
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.00000000003!2d88.2636304!3d22.5354215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1700000000000"
 };
@@ -340,7 +340,7 @@ export const testimonials = [
   { id: 1, name: "Rajesh Kumar", role: "Business Owner, Delhi", rating: 5, comment: "ASP Solar transformed our factory's energy costs. The solar panels are incredibly efficient and the installation was seamless.", avatar: "RK" },
   { id: 2, name: "Priya Sharma", role: "Homeowner, Mumbai", rating: 5, comment: "The SHL-4 home lighting set is amazing. We haven't faced a single power outage issue since installing it.", avatar: "PS" },
   { id: 3, name: "Amit Patel", role: "Retail Store Owner, Ahmedabad", rating: 4, comment: "Great quality extension boards. The USB one is a customer favorite in my shop. Bulk pricing was very competitive.", avatar: "AP" },
-  { id: 4, name: "Sunita Devi", role: "NGO Director, Jharkhand", rating: 5, comment: "We distributed Andslite solar lanterns in rural areas. The quality and battery life exceeded all expectations.", avatar: "SD" },
+  { id: 4, name: "Sunita Devi", role: "NGO Director, Jharkhand", rating: 5, comment: "We distributed ASP Solar Enterprise solar lanterns in rural areas. The quality and battery life exceeded all expectations.", avatar: "SD" },
   { id: 5, name: "Vikram Singh", role: "Contractor, Jaipur", rating: 4, comment: "Reliable products and excellent after-sales support. The solar PV modules are performing beyond specifications.", avatar: "VS" },
 ];
 
