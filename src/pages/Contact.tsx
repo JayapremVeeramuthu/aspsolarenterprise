@@ -52,7 +52,13 @@ const Contact = () => {
               <motion.div whileHover={{ y: -4 }} className="bg-gray-800 shadow-md border border-gray-700 rounded-xl p-5 text-center hover:shadow-[var(--shadow-hover)] transition-shadow">
                 <card.icon className="w-6 h-6 mx-auto mb-3 text-primary" />
                 <p className="text-sm font-semibold mb-1">{card.title}</p>
-                <p className="text-xs text-gray-400">{card.value}</p>
+                {card.title === "Email" ? (
+                  <a href={`mailto:${card.value}`} className="text-xs text-gray-400 hover:text-primary transition-colors block">
+                    {card.value}
+                  </a>
+                ) : (
+                  <p className="text-xs text-gray-400">{card.value}</p>
+                )}
               </motion.div>
             </StaggerItem>
           ))}
@@ -91,8 +97,16 @@ const Contact = () => {
 
           <FadeUp delay={0.2}>
             <div className="rounded-2xl overflow-hidden h-full min-h-[400px]">
-              <iframe src={contactInfo.mapUrl} width="100%" height="100%" style={{ border: 0, minHeight: 400 }}
-                allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="ASP Solar Location" />
+              <iframe 
+                src="https://www.google.com/maps?q=233B%20Kurunthampattu%20Road%20Mangampunjai%20Kallal%20630305%20Tamil%20Nadu%20India&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0, borderRadius: "12px" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="ASP Solar Location"
+              />
             </div>
           </FadeUp>
         </div>

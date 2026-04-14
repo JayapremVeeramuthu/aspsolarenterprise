@@ -330,10 +330,10 @@ export const contactInfo = {
   company: "ASP Solar Enterprise",
   address: "233B, Kurunthampattu Road, Mangampunjai, Kallal - 630 305",
   phone: ["+91 9003028001", "+91 9150809001", "+91 8438858636"],
-  email: "info@aspsolar.in",
+  email: "aspsolarenterprise@gmail.com",
   whatsapp: "+919003028001",
   hours: "Mon - Sat: 9:00 AM - 7:00 PM",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.00000000003!2d88.2636304!3d22.5354215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1700000000000"
+  mapUrl: "https://www.google.com/maps?cid=18066580501234518299&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=IN&source=embed"
 };
 
 export const testimonials = [
